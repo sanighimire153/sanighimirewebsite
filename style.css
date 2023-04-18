@@ -1,0 +1,320 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+/*Navbar*/
+.navbar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: sticky;
+	top: 0; 
+
+}
+.navbar ul{
+	display: flex;
+	list-style: none;
+	margin: 20px 0px;
+
+}
+.navbar ul li{
+	font-family: century;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 8px 25px;
+	transition: all .5s ease;
+}
+.navbar ul li a:hover{
+	background-color: white;
+	color: black;
+	box-shadow: 0 0 10px white;
+}
+
+/*home Section*/
+#home{
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(0, 0, 0,0.5);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+#home::before{
+	content:"" ;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url(image.jpg) no-repeat center/cover;
+	height: 900px;
+	width: 100%;
+	z-index: -1;
+	opacity: .8;
+    
+
+}
+
+.main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	top: 40%;
+	right: 08%;
+}
+.headings{
+	font-family: century;
+	font-size: 3rem;
+	text-align: center;
+	margin: 40px 0px;
+
+
+}
+
+.btn{
+	padding: 10px 35px;
+	border: 1px solid white;
+	color: green;
+	outline: none;
+	transition: .6s ease;
+}
+
+.btn:hover{
+	cursor: pointer;
+	background-color: white;
+	color: black;
+	box-shadow: 0 0 5px white, 0 0 15px white;
+	font-weight: bold;
+
+
+}
+
+/* About Section*/
+#about{
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	padding: 20px;
+	margin-bottom: 50px;
+   background-color: rgba(0, 0, 0 , 0.5);
+   color: white;
+   font-family: cursive;
+}
+#pic {
+	display: flex;
+	position: relative;
+}
+#pic img{
+	width: 250px;
+	height: 250px;
+
+}
+#intro{
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	padding: 10px;
+}
+#intro h2{
+	font-size: 2rem;
+	margin-bottom: 20px;
+}
+button{
+	padding: 10px ;
+	border: 1px solid white;
+	color: green;
+	outline: transparent;
+	transition: .6s ease;
+	font-size: 10px;
+	width: 80px;
+	height: 40px;
+}
+button:hover{
+	cursor: pointer;
+	background-color: white;
+	color: black;
+	box-shadow: 0 0 5px white, 0 0 15px white;
+	font-weight: bold;
+
+}
+.bar {
+  width: 100%;
+  background-color: #ddd;
+}
+	.skills {
+  text-align: center;
+  padding-right: 40px;
+  line-height: 40px;
+  color: white;
+}
+.web{
+  width: 65%; background-color: orange;
+}
+.java{
+  width: 50%; background-color: black;
+}
+.c{
+  width: 65%; background-color: #f44336;
+}
+.php{
+  width: 70%; background-color: #f44336;
+}
+.photoshop {
+  width: 50%; background-color:green;
+}
+
+/*Portfolio Sectiom*/
+
+#portfolio{
+	display: flex;
+	flex-direction: column;
+	background-color: purple;
+	color: white;
+	align-items: center;
+	padding: 20px;
+
+
+}
+.gallery{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	box-sizing: border-box;
+
+}
+
+.gallery img{
+	width: 360px;
+	height: 240px;
+	margin: 10px;
+}
+
+
+
+/*Services*/
+.service{
+	background: #101010;
+	width: 100%;
+}
+.title h2{
+	color: white;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+	color: red;
+}
+
+.card{
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background: black;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+
+.card i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+}
+
+h5{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+
+.pra p{
+	color: #fcfc;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+	color: white;
+}
+
+
+
+/*Contact*/
+
+#title-Tag-Line {
+  font-size: 300px;
+}
+.form {
+  background: white;
+  border-radius: 5px;
+  position:relative;
+  font-size: 1.3em;
+  float:center;
+}
+
+.title{
+  display: flex;
+  font-family: sans-serif;
+  margin: 10px auto 5px;
+  width: 300px;
+}
+
+.pageTitle{
+  font-size: 2em;
+  font-weight: bold;
+}
+.secondaryTitle{
+  color: grey;
+}
+
+.name {
+  background-color: #ebebeb;
+  color: white;
+}
+
+
+.email {
+  background-color: #ebebeb;
+  height: 2em;
+}
+
+
+.message {
+  background-color: #ebebeb;
+  overflow: hidden;
+  height: 10rem;
+}
+
+
+.formEntry {
+  display: block;
+  margin: 30px auto;
+  min-width: 300px;
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+  transition: all 0.5s ease 0s;
+}
+
+.submit {
+  width: 200px;
+  color: white;
+  background-color: red;
+  font-size: 20px;
+}
+
+
